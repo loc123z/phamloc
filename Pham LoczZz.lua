@@ -2,7 +2,7 @@ local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
-local screenGui = Instance.new("ScreenGui")
+local screenGui = Instance.new("LOC")
 local textLabel = Instance.new("TextLabel")
 
 screenGui.Parent = game.CoreGui
