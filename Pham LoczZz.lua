@@ -39,7 +39,7 @@ RunService.RenderStepped:Connect(function()
         lastUpdate = now
 
         local userName = LocalPlayer.Name
-        textLabel.Text = string.format("%s, FPS: %d",userName, math.floor(fps))
+        textLabel.Text = string.format("%s, FPS: %d",CON CAC, math.floor(fps))
     end
 end)
 
