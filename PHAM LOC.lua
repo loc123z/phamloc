@@ -1,7 +1,7 @@
----deobf By PhamLoczZz
----deobf By PhamLoczZz
----deobf By PhamLoczZz
----deobf By PhamLoczZz
+---deobf By Adz
+---deobf By Adz
+---deobf By Adz
+---deobf By Adz
 function setTeam(teamName)
     local args = {
         [1] = "SetTeam",
@@ -13,8 +13,8 @@ end
 spawn(function()
     while wait() do
         if _G.Select_Pirates then
-            setTeam("Marines")
-            _G.Select_Marines = true  
+            setTeam("Pirates")
+            _G.Select_Pirates = false  
             break
         end
     end
@@ -23,7 +23,7 @@ spawn(function()
     while wait() do
         if _G.Select_Marines then
             setTeam("Marines")
-            _G.Select_Marines = true 
+            _G.Select_Marines = false  
             break
         end
     end
@@ -43,7 +43,7 @@ TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 TextLabel.Position = UDim2.new(0.5, 0, -0.025, 0)
 TextLabel.Size = UDim2.new(0, 200, 0, 50)
 TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "https://discord.gg/pGn6xsmfSg"
+TextLabel.Text = "https://discord.gg/tHK9PtG8sf"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.00
 
@@ -150,15 +150,15 @@ end
 
 local NotificationLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/lobox920/Notification-Library/Main/Library.lua"))()
 
-NotificationLibrary:SendNotification("Warning", "Chờ xíu...", 10)
-NotificationLibrary:SendNotification("Warning", "cảm ơn vì dùng Lion Hub", 10)
-NotificationLibrary:SendNotification("Warning", "https://discord.gg/pGn6xsmfSg", 10)
+NotificationLibrary:SendNotification("Warning", "con cặc", 10)
+NotificationLibrary:SendNotification("Warning", "cảm ơn vì dùng Phạm Lộc zZz", 10)
+NotificationLibrary:SendNotification("Warning", "https://discord.gg/tHK9PtG8sf", 10)
 
 spawn(function()
     while wait() do
         if _G.Select_Marines then
             setTeam("Marines")
-            _G.Select_Marines = false  
+            _G.Select_Marines = true  
             break
         end
     end
@@ -1206,3 +1206,5 @@ spawn(function()
         end
     end
 end)
+
+
