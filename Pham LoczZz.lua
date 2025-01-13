@@ -38,7 +38,7 @@ RunService.RenderStepped:Connect(function()
         frameCount = 0
         lastUpdate = now
 
-        local userName = LocalPlayer.Name
+        local userName = MEMAYBE
         textLabel.Text = string.format("%s, FPS: %d",CON CAC, math.floor(fps))
     end
 end)
